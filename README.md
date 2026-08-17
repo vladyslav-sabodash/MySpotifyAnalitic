@@ -1,20 +1,20 @@
-# Spotify Recomendation System Based on Song Properties
+# Spotify Recommendation System Based on Song Properties
 
 This is my first personal project . It is small and not too good, but any way I will try to describe you how it works and how to use it
 
 ## 1) The Main idea and used technologies
 
 The idea was pretty simple:
-1) I want to look songs, which sound like any given referencee.
-2) Based on downoalded data ( with almost all songs for the end of 2025 - 255 mill. songs - 12 gb of parquet. ) find out songs with similar properties.
+1) I want to look songs, which sound like any given reference.
+2) Based on downloaded data ( with almost all songs for the end of 2025 - 255 mill. songs - 12 gb of parquet. ) find out songs with similar properties.
 
  Amount of the data is the reason why I chose a Polars lib
 
- ## 2) How work with it
+ ## 2) How to Use
 
 2.0) Clone the repository
 
-2.1) Creat a folder in the main and call it 'data_general'
+2.1) Create a folder in the main and call it 'data_general'
 
 2.2) In this folder paste data, which you can download from [this](https://huggingface.co/datasets/ozefe/spotify_audio_features/tree/main/data)
 
@@ -37,5 +37,5 @@ The idea was pretty simple:
 
 ## 3) Honest conclusion
 
-Honestly, I expected more. Main problem of this, is that similar properties != similar sound. Even with all filters only 1/10 or 1/15 is actualy similar to the reference. This is a fundamental problem and a reason why I decided to not support the project in the future. But, if you want to tast a project, I appreciate this.
+Honestly, I expected more. Main problem of this, is that similar properties != similar sound. Even with all filters only 1/10 or 1/15 is actualy similar to the reference. This is a fundamental problem and a reason why I decided to not support the project in the future. But, if you want to test a project, I appreciate this.
 
